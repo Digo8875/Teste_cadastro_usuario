@@ -1,0 +1,91 @@
+html, body{
+  	height: 100%;
+}
+
+* html .div-mestre{
+  	height: 100%;
+}
+
+.div-mestre{
+  position: relative;
+  min-height: 100%;
+}
+
+.btn{
+	margin-top: 5px;
+	margin-bottom: 5px;
+  background-color: #D8BFD8;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-busca{
+	margin-top: 15px;
+}
+
+.busca{
+	margin-top: 15px;
+}
+
+.conteudo{
+  	margin-top: 0.5%;
+  	padding-bottom: 30px;
+  	background-color: #F8F8FF;
+}
+
+.conteudo img{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.corpo{
+  	margin-top: 0.5%;
+  	padding-bottom: 30px;
+}
+
+.copylefts p{
+  	color: black;
+}
+
+.footer{
+  	position: absolute;
+  	bottom: 0;
+  	right: 0;
+  	left: 0;
+  	background-color: #E6E6FA;
+}
+
+.header{
+    margin-top: 30px;
+  	padding-top: 0.5%;
+  	padding-bottom: 0.5%;
+  	background-color: #E6E6FA;
+}
+
+.menu{
+  	margin-top: 0.5%;
+  	padding-bottom: 30px;
+}
+
+.table-scrollbar {
+	height: 600px;
+	overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+	display: block;
+}
+
+.titulo_table{
+	margin-top: 15px;
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+a.paginate_button, a.paginate_button.current{
+	border-radius: 10px !important;
+}
+
+input, select{
+	border-radius: 5px !important;
+}

@@ -1,0 +1,6 @@
+criar um usuario no DB = cadastro_usuario
+
+localhost
+dbname = cadastro_usuario
+user = cadastro_usuario
+pass = cadastro_usuario

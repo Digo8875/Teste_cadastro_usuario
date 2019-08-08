@@ -1,0 +1,16 @@
+/* APAGAR TABELAS PARA REIMPORTAÇÕES DO BANCO */
+DROP TABLE IF EXISTS Usuario;
+################################################
+
+/* CRIAÇÃO DE TABELAS */
+CREATE TABLE Usuario(
+	Id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	Nome VARCHAR(100) NOT NULL,
+	Email VARCHAR(100) NOT NULL,
+	Telefone VARCHAR(20) NOT NULL,
+	Sexo VARCHAR(1) NOT NULL,
+	Ativo Boolean NOT NULL DEFAULT TRUE,
+	Created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	Updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+################################################
